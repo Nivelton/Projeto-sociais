@@ -18,7 +18,9 @@ main{
 }
 
 body{
-    background: url(/imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url('../imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-position: top, center;
     background-size: cover; 
 }
 
@@ -31,7 +33,7 @@ body{
     height: 627px;
     width: 311px;
     background-color: blue;
-    background: url(/imagens/frame-iphone.png) no-repeat;
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
 #tela{
